@@ -1,14 +1,11 @@
 {
   "name": "dragonvite",
-  "homepage": "https://shmailez.github.io/dragoncampdeploy/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
