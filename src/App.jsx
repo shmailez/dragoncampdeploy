@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import './App.css'
 import Button from './components/Button'
+import Text from './components/Text'
 
 function App() {
   const [local, setLocal] = useState("town square")
@@ -10,11 +11,10 @@ function App() {
     setLocal(l)
   }
 
-  console.log(local)
-
   return (
     <>
       <Button getLocal={getLocal}/>
+      <Text local={local}/>
     </>
   )
 }
